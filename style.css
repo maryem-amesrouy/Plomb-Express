@@ -168,6 +168,8 @@
 
 
 
+
+
 .PresentService{
     
     display: flex;
@@ -199,8 +201,8 @@
 .ListService div{
     border: solid 1px #DCE5EC;
     border-radius: 8px;
-    width: 394px;
-    height: 350px;
+    width: 80%px;
+    height: 80%px;
   
 
 }
@@ -216,11 +218,14 @@
     font-size: 14px;
 }
 
+
 .service a{
-     width: 90PX;
-    height: 10PX;
+    display: flex;
+    
+    align-items: center;
     color: #102A43;
     border: solid 2px #DCE5EC;
     border-radius: 8px;
-   
+   width: 200px;
+    height: 30px;
 }
