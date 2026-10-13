@@ -162,3 +162,65 @@
     align-items: center;
 }
 
+
+
+
+
+
+
+.PresentService{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 10px;
+}
+
+.P1{
+    color: #0866C2;
+    font-size: 10px;
+
+}
+
+.P2{
+    color: #486176;
+    font-size: 12px;
+}
+
+.ListService{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.ListService div{
+    border: solid 1px #DCE5EC;
+    border-radius: 8px;
+    width: 394px;
+    height: 350px;
+  
+
+}
+
+.ListService div h3{
+    font-size: 16px;
+    
+
+}
+
+.ListService div p{
+    color :#486176;
+    font-size: 14px;
+}
+
+.service a{
+     width: 90PX;
+    height: 10PX;
+    color: #102A43;
+    border: solid 2px #DCE5EC;
+    border-radius: 8px;
+   
+}
