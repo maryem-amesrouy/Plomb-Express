@@ -311,6 +311,39 @@
 }
 
 
+footer{
+background-color:#102A43;  
+border: solid #486176;
+}
+
+.information{
+    background-color: #102A43;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+    
+}
+
+.information h5{
+    color: #FFFFFF;
+
+}
+
+.information a{
+    color: #FFFFFF;
+}
+
+
+.information div{
+    color: #FFFFFF;
+
+}
+
+.infoLegal{
+    border-top: solid #486176 ;
+    color: #FFFFFF;
+}
 
 
 
