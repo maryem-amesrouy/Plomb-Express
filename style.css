@@ -10,6 +10,10 @@
     justify-content: space-around;
     align-items: center;
 }
+
+
+
+
 .log{
     display: flex;
     justify-content: space-around;
@@ -343,6 +347,76 @@ border: solid #486176;
 .infoLegal{
     border-top: solid #486176 ;
     color: #FFFFFF;
+}
+
+@media (max-width:375px){
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        height: 128px;
+    }
+    .navigation button{
+        width: 85%;
+    }
+    .millieux{
+         height: 1095px;
+    }
+
+    .presentation{
+       
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        width: 335px;
+        height: 823px;
+    }
+
+    .container h1{
+        font-size: 38px;
+    }
+    .container p{
+        font-size: 16px;
+    }
+
+    .button{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .demande {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .services {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .PhotoPlambet{
+        width:330px ;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        
+
+    }
+
+    .nosEngagenments{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+    
 }
 
 
